@@ -1,0 +1,17 @@
+#define UNKNOWN_COMMAND 0
+#define REGISTER_COMMAND 1
+#define STORE_COMMAND 2
+#define RETRIEVE_COMMAND 3
+#define DELETE_COMMAND 4
+#define LEAVE_COMMAND 5
+#define SOCK_NAME "./objstore.sock"
+#define STATUS_FILE "./status.dat"
+#define NO_USERNAME "unregistered"
+#define SOCKET_ERROR 1
+#define SERVER_ERROR 2
+#define MEMORY_ERROR 3
+#define REGISTER_ERROR 4
+#define STORE_ERROR 5
+#define RETRIEVE_ERROR 6
+#define DELETE_ERROR 7
+#define LEAVE_ERROR 8
